@@ -1,12 +1,22 @@
 <!DOCTYPE html>
+
+
 <html>
+  
+  <%- include('partials/main_nav')%>
   <head>
     <title><%= title %></title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>Browse: <a href="/about">About Me</a></p>
+    <h3><%= quote%></h3>
+    <p>My mission is to <%=mission%>. I offer a variety of <a href="/services">services</a> to make your life easier. <a href="/about">Click here</a> to learn more about me.</p>
   </body>
+  <%- include('partials/bottom_nav') %>  
+
+  
 </html>
