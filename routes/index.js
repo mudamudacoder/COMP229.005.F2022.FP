@@ -13,14 +13,14 @@ router.get('/', function(req, res, next) {
 router.get('/home', function(req, res, next) {
   res.render('index', { 
     title: 'Home',
-    quote: 'You are never too old to set new goals or to dream a new dream.\n-C.S. Lewis',
+    quote: 'Passion is the fire that drives us to do great things',
     mission: 'solve your developing needs'
    });
 });
 
 router.get('/about', function(req, res, next) {
   res.render('about', { 
-    title: 'About',
+    title: 'About Me',
     fullName: 'Agrim Prasad Shiwakoti',
     dob: 'February 18, 2003',
     birthPlace: 'Kathmandu',
@@ -34,7 +34,10 @@ router.get('/about', function(req, res, next) {
 
 router.get('/projects', function(req, res, next) {
   res.render('projects', { 
-    title: 'Projects'
+    title: 'Projects',
+    project1: 'GUI Calculator',
+    project2: 'DVD Logo Screen',
+    project3: 'Bug Smasher'
   });
 });
 
