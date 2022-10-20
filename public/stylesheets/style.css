@@ -41,6 +41,46 @@ a {
   opacity: 0.7;
 }
 
+.ct {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.ol {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.ct:hover .ol {
+  opacity: 1;
+}
+
+.txt {
+  color: white;
+  font-size: 18px;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 #nLogo{
   max-height: 48px;
   align-self: flex-start;
