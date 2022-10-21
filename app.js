@@ -1,3 +1,9 @@
+/**********************************************
+ * Author: Agrim Shiwakoti
+ * Student ID: 301209752
+ * Date: 2022/10/21
+ **********************************************/
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -6,6 +12,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+
 
 
 
@@ -41,10 +48,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
+app.listen(process.env.PORT || 5000)
 
 ////////////////////////////////////////
-
 
 
 module.exports = app;
