@@ -1,5 +1,4 @@
-
-
 function redirect(){
-    window.
+    window.location.href = "/home";
 }
+console.log("i am working");
