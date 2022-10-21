@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
+  <div>
     
     <h1><%= title %></h1>
-    <p>I am <%= fullName%>. </p><br><p>Born in <%= dob%>, I came to <%= currentCountry%> when I was 18. I am an enthusiastic student at <%= college%>. I am enrolled in <%= course%>.</p>
+    <img src = "images/profile.jpeg" class="profilePic"/>
+    <div style="font-size: 24px;">
+    <p>I am <%= fullName%>. </p><br><p>Born in <%= dob%>, I came to <%= currentCountry%> when I was 18. I am an enthusiastic student at <%= college%>.<br>I am enrolled in <%= course%> course. I aim to become a software developer. </p>
+  <p>Find my resume by clicking on the icon:<a target="_blank" href="/pdf/pdf112.pdf" ><img src="images/pdflogo.png"></a></p></div>
+  </div>
+  
   </body>
   <%- include('partials/bottom_nav') %>  
 

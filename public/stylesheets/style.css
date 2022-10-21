@@ -1,6 +1,6 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
   
 }
 
@@ -81,6 +81,9 @@ a {
   text-align: center;
 }
 
+.profilePic {
+  max-height: 200px;
+}
 #nLogo{
   max-height: 48px;
   align-self: flex-start;

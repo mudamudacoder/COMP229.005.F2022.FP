@@ -44,12 +44,6 @@ app.use(function(err, req, res, next) {
 
 
 ////////////////////////////////////////
-app.get('/contact', function(req, res){
-  res.render('contact.ejs', {
-    title: 'Contact',
-     nav: ['Home','About','Contact']
-  });
-});
 
 
 

@@ -57,6 +57,10 @@ router.get('/services', function(req, res, next) {
 
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', { title: 'Contact'});
+  res.render('contact', { 
+    title: 'Contact',
+    phone: '647-517-2769',
+    email: 'agrimsiwakot5@gmail.com'
+  });
 });
 module.exports = router;
