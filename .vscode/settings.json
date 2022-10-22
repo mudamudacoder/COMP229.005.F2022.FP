@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6b14cacd-ea4e-4cca-b13c-a362945134bf/appservices/subscriptions/6b14cacd-ea4e-4cca-b13c-a362945134bf/resourceGroups/herokuDidntWork/providers/Microsoft.Web/sites/herokuDidntWork",
+    "appService.deploySubpath": "."
+}
