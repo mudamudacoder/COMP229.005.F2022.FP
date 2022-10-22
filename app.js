@@ -9,11 +9,10 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var port = process.env.PORT || 4000;
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-
+var port = process.env.PORT || 4000;
 
 
 var app = express();
