@@ -1,86 +1,252 @@
 {
-  
+  
+
+
+
   "name": "comp229.005.f2022",
-  
+  
+
+
+
   "description": "first",
-  
+  
+
+
+
   "version": "1.0.0",
-  
+  
+
+
+
   "main": "bin/www",
-  
+  
+
+
+
   "repository": {
-  
-    
+  
+
+
+
+    
+
+
+
   "type": "git",
-  
-    
+  
+
+
+
+    
+
+
+
   "url": "git+https://github.com/mudamudacoder/COMP229.005.F2022.git"
-  
+  
+
+
+
   },
-  
+  
+
+
+
   "keywords": [
-  
-    
+  
+
+
+
+    
+
+
+
   "COMP229",
-  
-    
+  
+
+
+
+    
+
+
+
   "Express",
-  
-    
+  
+
+
+
+    
+
+
+
   "EJS"
-  
+  
+
+
+
   ],
-  
+  
+
+
+
   "author": "Agrim Shiwakoti",
-  
+  
+
+
+
   "license": "MIT",
-  
+  
+
+
+
   "bugs": {
-  
-    
+  
+
+
+
+    
+
+
+
   "url": "https://github.com/mudamudacoder/COMP229.005.F2022/issues"
-  
+  
+
+
+
   },
-  
+  
+
+
+
   "homepage": "https://github.com/mudamudacoder/COMP229.005.F2022#readme",
-  
+  
+
+
+
   "private": true,
-  
+  
+
+
+
   "scripts": {
-  
-    
-  "start": "node ./bin/www"
-  
+  
+
+
+
+    
+
+
+
+  "start": "node ./bin/www",
+  
+  "dev": "react-scripts start",
+  
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+    
+
+
+
   },
-  
+  
+
+
+
   "dependencies": {
-  
-    
+  
+
+
+
+    
+
+
+
   "bootstrap": "^5.2.2",
-  
-    
+  
+
+
+
+    
+
+
+
   "connect": "^3.7.0",
-  
-    
+  
+
+
+
+    
+
+
+
   "cookie-parser": "~1.4.4",
-  
-    
+  
+
+
+
+    
+
+
+
   "debug": "~2.6.9",
-  
-    
+  
+
+
+
+    
+
+
+
   "ejs": "^3.1.8",
-  
-    
+  
+
+
+
+    
+
+
+
   "express": "^4.18.2",
-  
-    
+  
+
+
+
+    
+
+
+
   "fontawesome": "^5.6.3",
-  
-    
+  
+
+
+
+    
+
+
+
   "http-errors": "~1.6.3",
-  
-    
-  "morgan": "~1.9.1"
-  
+  
+
+
+
+    
+
+
+
+  "morgan": "~1.9.1",
+  
+
+
+
+    
+
+
+
+  "serve": "^14.0.1"
+  
+
+
+
   }
 }
