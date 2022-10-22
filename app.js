@@ -9,7 +9,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+var port = process.env.PORT || 4000;
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -52,10 +52,10 @@ app.use(function(err, req, res, next) {
 
 ////////////////////////////////////////
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 8000;
-}
-app.listen(port);
+
+
+app.listen(port, () => {
+  console.log(`App listening at http://localhost:${port}`)
+})
 
 module.exports = app;
