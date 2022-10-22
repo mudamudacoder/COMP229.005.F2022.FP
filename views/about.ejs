@@ -1,0 +1,29 @@
+<!-- *********************************************
+ * Author: Agrim Shiwakoti
+ * Student ID: 301209752
+ * Date: 2022/10/21
+ ********************************************** -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+<%- include('partials/main_nav')%>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <div>
+    
+    <h1><%= title %></h1>
+    <img src = "images/profile.jpeg" class="profilePic"/>
+    <div style="font-size: 24px;">
+    <p>I am <%= fullName%>. </p><br><p>Born in <%= dob%>, I came to <%= currentCountry%> when I was 18. I am an enthusiastic student at <%= college%>.<br>I am enrolled in <%= course%> course. I aim to become a software developer. </p>
+  <p>Find my resume by clicking on the icon:<a target="_blank" href="/pdf/pdf112.pdf" ><img src="images/pdflogo.png"></a></p></div>
+  </div>
+  
+  </body>
+  <%- include('partials/bottom_nav') %>  
+
+
+</html>

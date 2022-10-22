@@ -1,0 +1,95 @@
+/**********************************************
+ * Author: Agrim Shiwakoti
+ * Student ID: 301209752
+ * Date: 2022/10/21
+ **********************************************/
+body {
+  padding: 50px;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+.flexContent {
+  display: flex;
+  align-items: flex-start;
+}
+a {
+  color: #00B7FF;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 20px;
+}
+
+.card img{
+  width: auto;
+  height:200px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.ct {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.ol {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.ct:hover .ol {
+  opacity: 1;
+}
+
+.txt {
+  color: white;
+  font-size: 18px;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.profilePic {
+  max-height: 200px;
+}
+#nLogo{
+  max-height: 48px;
+  align-self: flex-start;
+}

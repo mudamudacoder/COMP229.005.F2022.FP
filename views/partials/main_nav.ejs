@@ -1,0 +1,54 @@
+<!-- *********************************************
+ * Author: Agrim Shiwakoti
+ * Student ID: 301209752
+ * Date: 2022/10/21
+ ********************************************** -->
+<!-- Main Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Agrim </a>
+    <img src="images/logo.png" id="nLogo">
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+        <% if (title == "Home"){ %>
+          <li class="nav-item active">
+        <% } else  { %>
+          <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/home"><i class="fa-solid fa-house-blank"></i> Home </a>
+          </li>
+
+        <% if (title == "About Me") { %>
+          <li class="nav-item active">
+        <% } else  { %>
+          <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/about"><i class="fas fa-solid"></i> About </a>
+          </li>
+
+        <% if (title == "Projects") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/projects"><i class="fab fa-elementor"></i> Projects </a>
+        </li>
+
+        <% if (title == "Services") { %>
+          <li class="nav-item active">
+        <% } else  { %>
+          <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/services"> Services </a>
+        </li>
+
+        <% if (title == "Contact") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
+        </li>
+    </div>
+  </nav>

@@ -1,0 +1,47 @@
+
+<!-- *********************************************
+ * Author: Agrim Shiwakoti
+ * Student ID: 301209752
+ * Date: 2022/10/21
+ ********************************************** -->
+ <!DOCTYPE html>
+
+
+<html>
+  
+  <%- include('partials/main_nav')%>
+  <head>
+    <title><%= title %></title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <br>
+    <h1 style="text-align:left;margin-left: 10px;"><%= title%></h1>
+<div class="flexContent">
+
+  <!--using cards-->
+<div class="card">
+  <img src="images/img_service1.jpg" alt="Service 1" />
+  <h3><%=service1%></h3>
+  <p><button>Contact</button></p>
+</div>
+
+<div class="card">
+  <img src="images/img_service2.jpg" alt="Service 2" >
+  <h3><%=service2%></h3>
+  <p><button>Contact</button></p>
+</div>
+
+<div class="card">
+  <img src="images/img_service3.jpg" alt="Service 3" >
+  <h3><%=service3%></h3>
+  <p><button>Contact</button></p>
+</div>
+</div>
+  </body>
+  <%- include('partials/bottom_nav') %>  
+</html>
